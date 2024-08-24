@@ -22,7 +22,7 @@ import com.codeBanking.service.AccountService;
 @RequestMapping("/api/accounts")
 public class AccountController {
 	
-	@Autowired
+	
 	private AccountService accountService;
 
 	public AccountController(AccountService accountService) {
